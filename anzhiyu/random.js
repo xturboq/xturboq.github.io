@@ -1,4 +1,4 @@
-var posts=["2024/04/02/Redis 入门/","2024/03/31/第一篇文章/","2024/03/31/hello-world/"];function toRandomPost(){
+var posts=["2024/03/31/第一篇文章/","2024/04/02/Redis 入门/","2024/03/31/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
